@@ -2,10 +2,12 @@ name: fastbook
 channels:
     - fastai
     - pytorch
+    - conda-forge
     - defaults
 dependencies:
-  - python>=3.6
-  - pytorch>=1.6
+  - python>=3.8
+  - pytorch>=1.8
+  - cudatoolkit>=11.1, <12
   - torchvision
   - pip
   - pip:

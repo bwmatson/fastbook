@@ -1,0 +1,17 @@
+{
+  "name": "fastbook-workspace",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "fastbook_workspace",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "conda env update -n base -f environment.yml",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "editorconfig.editorconfig",
+        "visualstudioexptteam.vscodeintellicode"
+      ]
+    }
+  }
+}

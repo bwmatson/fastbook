@@ -6,5 +6,8 @@ tmp/
 bears/
 __pycache__/
 .last_checked
-.gitconfig
 .ipynb_checkpoints/
+.vscode
+.env
+
+clean/*/*.png
